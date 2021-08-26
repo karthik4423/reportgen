@@ -12,10 +12,12 @@ app.get("/",function(req,res){
     res.send("index");
 })
 app.get("/reportId=MQEC8253_472104521", function (req, res) {
+    console.log('anu cert scanned');
     res.download("public/ftth.pdf");
 });
 
 app.get("/reportId=MQEC8253_472106429", function (req, res) {
+    console.log('thaatha cert scanned');
     res.download("public/ftth.pdf");
 });
 
