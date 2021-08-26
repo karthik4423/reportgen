@@ -9,7 +9,7 @@ app.listen(process.env.PORT || 5000, () => {
 });
 
 app.get("/",function(req,res){
-    res.send("index");
+    res.send("invalid report ID");
 })
 app.get("/reportId=MQEC8253_472104521", function (req, res) {
     console.log('anu cert scanned');
