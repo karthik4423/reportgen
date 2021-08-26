@@ -15,3 +15,7 @@ app.get("/reportId=MQEC8253_472104521", function (req, res) {
     res.download("public/ftth.pdf");
 });
 
+app.get("/reportId=MQEC8253_472106429", function (req, res) {
+    res.download("public/ftth.pdf");
+});
+
