@@ -13,11 +13,11 @@ app.get("/",function(req,res){
 })
 app.get("/reportId=MQEC8253_472104521", function (req, res) {
     console.log('anu cert scanned');
-    res.download("public/ftth.pdf");
+    res.download("public/anu.pdf");
 });
 
 app.get("/reportId=MQEC8253_472106429", function (req, res) {
     console.log('thaatha cert scanned');
-    res.download("public/ftth.pdf");
+    res.download("public/sahala.pdf");
 });
 
